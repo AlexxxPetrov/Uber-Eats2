@@ -19,9 +19,9 @@
     <header class="header">
         <div class="wrapper header__wrapper">
             <h1></h1>
-            <a class="header__logo" href="#">
+            <a class="header__logo" href="#" aria-hidden="true">
                 <svg class="header__logo-svg">
-                    <use xlink:href="img/sprite.svg#header__logo-svg-use"></use> 
+                    <use xlink:href="img/sprite.svg#header__logo-svg-use"></use>
                 </svg>
             </a>
 
@@ -35,9 +35,9 @@
             </div>
 
             <div class="header__buttons">
-                <button class="header__button-sign-in">Sign in</button>
-                <button class="header__button-register">Register</button>
-                <button class="header__basket"></button>
+                <button class="header__button-sign-in"  type=“button”>Sign in</button>
+                <button class="header__button-register"  type=“button”>Register</button>
+                <button class="header__basket"  type=“button” aria-label="basket"></button>
             </div>
         </div>
     </header>
@@ -46,12 +46,12 @@
         <img class="main__img" src="img/pushkin.jpg"  srcset="img/pushkin-2x.jpg 2x" alt="pushkin.jpg">
                 <section class="main__menu menu">
                     <div class="wrapper menu__wrapper">
-                        <div class="menu__item menu__item_active">Закуски</div>
-                        <div class="menu__item">Салаты</div>
-                        <div class="menu__item">Супы</div>
-                        <div class="menu__item">Горячие блюда</div>
-                        <div class="menu__item">Гарниры</div>
-                        <div class="menu__item">Десерты</div>
+                        <div class="menu__item menu__item_active" tabindex="0">Закуски</div>
+                        <div class="menu__item" tabindex="0">Салаты</div>
+                        <div class="menu__item" tabindex="0">Супы</div>
+                        <div class="menu__item" tabindex="0">Горячие блюда</div>
+                        <div class="menu__item" tabindex="0">Гарниры</div>
+                        <div class="menu__item" tabindex="0">Десерты</div>
                     </div>
 
                 </section>
@@ -59,7 +59,7 @@
                 
                 <div class="main-card">
                     <h2 class="main-card__restaurant-name">Трактир «Пушкин»</h2>
-                    <div class="main-card__food">₽₽₽ • Европейская</div>
+                    <div class="main-card__food"> &#8381;&#8381;&#8381; &#128900; Европейская</div>
                     <div class="main-card__delivery-time">40 - 50 Min</div>
                 </div>
                 
@@ -68,51 +68,51 @@
                     <div class="snacks-menu__decorate-line"></div>
                     <div class="snack-menu__cards">
 
-                        <div class="snack-menu__card">
+                        <div class="snack-menu__card" tabindex="0">
                             <h3 class="snack-menu__card-dish-name">Сельдь на бородинском хлебе</h3>
                             <h4 class="snack-menu__card-extra">С яйцом и огурцом</h4>
-                            <span class="snack-menu__card-cost">240 ₽</span>
+                            <span class="snack-menu__card-cost">240  &#8381;</span>
                             <img class="snack-menu__card-pic" src="img/Herring-on-Borodino-bread.jpg" 
                             srcset="img/Herring-on-Borodino-bread-2x.jpg 2x" alt="Herring-on-Borodino-bread.jpg">
                         </div>
 
-                        <div class="snack-menu__card">
+                        <div class="snack-menu__card" tabindex="0">
                             <h3 class="snack-menu__card-dish-name">Соленья ассорти</h3>
                             <h4 class="snack-menu__card-extra"></h4>
-                            <span class="snack-menu__card-cost">320 ₽</span>
+                            <span class="snack-menu__card-cost">320  &#8381;</span>
                             <img class="snack-menu__card-pic" src="img/Assorted-pickles.jpg" 
                             srcset="img/Assorted-pickles-2x.jpg 2x" alt="Assorted-pickles.jpg">
                         </div>
 
-                        <div class="snack-menu__card">
+                        <div class="snack-menu__card" tabindex="0">
                             <h3 class="snack-menu__card-dish-name">Грибы маринованные</h3>
                             <h4 class="snack-menu__card-extra"></h4>
-                            <span class="snack-menu__card-cost">300 ₽</span>
+                            <span class="snack-menu__card-cost">300 &#8381;</span>
                             <img class="snack-menu__card-pic" src="img/Marinated-mushrooms.jpg" 
                             srcset="img/Marinated-mushrooms-2x.jpg 2x" alt="Marinated-mushrooms.jpg">
                         </div>
                         <!--/////////////////////////////////////////////////////////////////////-->
 
-                        <div class="snack-menu__card">
+                        <div class="snack-menu__card" tabindex="0">
                             <h3 class="snack-menu__card-dish-name">Сало домашнее с горчицей</h3>
                             <h4 class="snack-menu__card-extra"></h4>
-                            <span class="snack-menu__card-cost">320 ₽</span>
+                            <span class="snack-menu__card-cost">320 &#8381;</span>
                             <img class="snack-menu__card-pic" src="img/Homemade-bacon-with-mustard.jpg" 
                             srcset="img/Homemade-bacon-with-mustard-2x.jpg 2x" alt="Homemade-bacon-with-mustard.jpg">
                         </div>
 
-                        <div class="snack-menu__card">
+                        <div class="snack-menu__card" tabindex="0">
                             <h3 class="snack-menu__card-dish-name">Малосольная семга</h3>
                             <h4 class="snack-menu__card-extra"></h4>
-                            <span class="snack-menu__card-cost">390 ₽</span>
+                            <span class="snack-menu__card-cost">390 &#8381;</span>
                             <img class="snack-menu__card-pic" src="img/Lightly-salted-salmon.jpg" 
                             srcset="img/Lightly-salted-salmon-2x.jpg 2x" alt="Lightly-salted-salmon.jpg">
                         </div>
 
-                        <div class="snack-menu__card">
+                        <div class="snack-menu__card" tabindex="0">
                             <h3 class="snack-menu__card-dish-name">Язык говяжий с хреном</h3>
                             <h4 class="snack-menu__card-extra"></h4>
-                            <span class="snack-menu__card-cost">350 ₽</span>
+                            <span class="snack-menu__card-cost">350 &#8381;</span>
                             <img class="snack-menu__card-pic" src="img/Beef-tongue-with-horseradish.jpg" 
                             srcset="img/Beef-tongue-with-horseradish-2x.jpg 2x" alt="Beef-tongue-with-horseradish.jpg">
                         </div>
@@ -125,7 +125,7 @@
     <footer class="footer">
         <div class="wrapper footer__wrapper">
             <a class="footer__logo" href="#">
-                <svg class="footer__logo-svg">
+                <svg class="footer__logo-svg" aria-hidden="true">
                     <use xlink:href="img/sprite.svg#footer__logo-svg-use"></use>
                 </svg>
             </a>
@@ -133,21 +133,21 @@
                 <div class="nav__left-part">
                     <select class="footer__language-select">
                         <option class="language-select__option" value="" selected>English</option>
-                        <option class="language-select__option" value="">English</option>
+                        <option class="language-select__option" value="">Russian</option>
                     </select>
                     <div class="footer__social">
                         <div class="social__uber-eats"><span class="uber-eats__hashtag">#</span>UberEats</div>
-                        <a class="social__link social__facebook" href="#">
+                        <a class="social__link social__facebook" href="#" aria-label="facebook">
                             <svg class="social__svg">
                                 <use xlink:href="img/sprite.svg#social__facebook-svg-use"></use>
                             </svg>
                         </a>
-                        <a class="social__link social__twitter" href="#">
+                        <a class="social__link social__twitter" href="#" aria-label="twitter">
                             <svg class="social__svg">
                                 <use xlink:href="img/sprite.svg#social__twitter-svg-use"></use>
                             </svg>
                         </a>
-                        <a class="social__link social__instagram" href="#">
+                        <a class="social__link social__instagram" href="#" aria-label="instagram">
                             <svg class="social__svg">
                                 <use xlink:href="img/sprite.svg#social__instagram-svg-use"></use>
                             </svg>
@@ -187,12 +187,13 @@
 
             <div class="apps">
                 <a class="apps__link" href="#">
-                    <img class="apps__img" src="img/app-store.jpg"  srcset="img/app-store-2x.jpg 2x" alt="app-store.jpg">
+                    <img class="apps__img" src="img/app-store.png"  srcset="img/app-store-2x.png 2x" alt="app-store.png">
                 </a>
                 <a class="apps__link" href="#">
-                    <img class="apps__img" src="img/google-play.jpg"  srcset="img/google-play-2x.jpg 2x" alt="google-play.jpg">
+                    <img class="apps__img" src="img/google-play.png"  srcset="img/google-play-2x.png 2x" alt="google-play.png">
                 </a>
             </div>
+        
 
             <div class="footer-item">
                 <div class="footer-item__left-part">
